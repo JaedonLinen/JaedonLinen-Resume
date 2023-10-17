@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Jaedon Linen Resume</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/78910a6f59.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="Images/Jaedon Linen.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>`
+                        <li><a href="#experiances">Experiances</a></li>
+                        <li><a href="#contact">Contacts</a></li>
+                        <i class="fa-solid fa-xmark" style="color: #5a5a5a;" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" style="color: #cced00;" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Software Engineer</p>
+                    <h1>Hello, my name is <span>Jaedon Linen</span><br> from Covington, Georgia.</h1>
+                </div>
+            </div>
+        </div>
+
+        <!-- ---------------------- About Section ---------------------- -->
+
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="Images/c3.png">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>Hello, my name is Jaedon Linen and I currently attend Kennesaw State University. As I am currently a junior, I am actively studying and pursuing a bachelors degree in Software Engineering. In the near future, I anticipate to achieve my bachelors degree and secure a responsible career opportunity to fully utilize my training and skills. I aspire to use my skills and knowledge, to contribute and help elavate the success of a reputable organization, as well as to further my knowledge in the SWE domain.</p>
+                    
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('languages')">Languages</p>
+                            <p class="tab-links" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="languages">
+                            <ul>
+                                <li><span>Java</span><br></li>
+                                <li><span>C#</span><br></li>
+                                <li><span>Html</span><br></li>
+                                <li><span>css</span><br></li>
+                                <li><span>python</span><br></li>
+                                <li><span>MySQL</span><br></li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="skills">
+                            <ul>
+                                <li><span>Data Structures</span><br></li>
+                                <li><span>Object Oriented Programing</span><br></li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>Kennesaw State University</span><br></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ---------------------- Experiances Section ---------------------- -->
+        <div id="experiances">
+            <div class="container">
+                <h1 class="sub-title">Experiances</h1>
+                <div class="experiance-list">
+                    <div>
+                        <h2>Project 1</h2>
+                        <p>Information on this project, fldskfjdsklfjsdklfjklsdjflkjadslkfjdskfjlakdjfklds</p>
+                        <a href="#">Click to enter</a>
+                    </div>
+                    <div>
+                        <h2>Project 2</h2>
+                        <p>Information on this project, fldskfjdsklfjsdklfjklsdjflkjadslkfjdskfjlakdjfklds</p>
+                        <a href="#">Click to enter</a>
+                    </div>
+                    <div>
+                        <h2>Project 3</h2>
+                        <p>Information on this project,fldskfjdsklfjsdklfjklsdjflkjadslkfjdskfjlakdjfklds</p>
+                        <a href="#">Click to enter</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ---------------------- Projects Section ---------------------- -->
+
+        <div id="projects">
+            <div class="container">
+                <h1 class="sub-title">Projects</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="Images/css logo.png">
+                        <div class="layer">
+                            <h2>Project 1</h2>
+                            <p>Information on this project, fldskfjdsklfjsdklfjklsdjflkjadslkfjdskfjlakdjfklds</p>
+                            <a href="#">Click to preview</a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="Images/java logo.png">
+                        <div class="layer">
+                            <h2>Project 2</h2>
+                            <p>Information on this project, fldskfjdsklfjsdklfjklsdjflkjadslkfjdskfjlakdjfklds</p>
+                            <a href="#">Click to preview</a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="Images/html logo.png">
+                        <div class="layer">
+                            <h2>Project 3</h2>
+                            <p>Information on this project, fldskfjdsklfjsdklfjklsdjflkjadslkfjdskfjlakdjfklds</p>
+                            <a href="#">Click to preview</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ---------------------- Contact Section ---------------------- -->
+
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-regular fa-paper-plane" style="color: #cced00;"></i>jaedonlinen@gmail.com</p>
+                        <p><i class="fa-solid fa-phone" style="color: #cced00;"></i>6785233869</p>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/jaedon-linen-77581a24a/"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://github.com/JaedonLinen"><i class="fa-brands fa-github"></i></i></a>
+                        </div>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright © Jaedon. Made by Jaedon Linen</p>
+            </div>
+        </div>
+
+        <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+        </script>
+
+        <script>
+
+            var sidemenu = document.getElementById("sidemenu");
+
+            function openmenu(){
+                sidemenu.style.right = "0";
+            }
+            function closemenu(){
+                sidemenu.style.right = "-200px";
+            }
+
+        </script>
+
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbxp5cENjPYI7B_unH-l4NY5DeK83hk69ihdO7neIX5Wv3k0ot9ajR8hhAgqSa1758Uc/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+        
+            form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response =>{
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => {
+                    msg.innerHTML = "Message was not sent"
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+                    },5000)
+                    form.reset()
+                })
+            })
+        </script>
+        
+    </body>
+</html>
